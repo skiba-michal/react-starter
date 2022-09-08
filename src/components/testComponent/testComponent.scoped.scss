@@ -1,0 +1,9 @@
+@import "@styles/mixins";
+
+.super {
+  @include xl {
+    border: 1px solid blue;
+    background: wheat;
+  };
+
+}

@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@assets": ["src/assets/*"],
+      "@components": ["src/components/index"],
+      "@data": ["src/data/index"],
+      "@features": ["src/features/index"],
+      "@hooks": ["src/hooks/index"],
+      "@interfaces": ["src/interfaces/index"],
+      "@layouts": ["src/layouts/index"],
+      "@lib": ["src/lib/index"],
+      "@pages": ["src/pages/"],
+      "@services": ["src/services/index"],
+      "@store": ["src/store/index"],
+      "@styles/*": ["src/styles/*"],
+      "@utils": ["src/utils/index"]
+    },
+    "jsx": "react",
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false
+  }
+}
